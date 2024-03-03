@@ -51,5 +51,10 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "UnityLearningBasic.sln"
+    "dotnet.defaultSolution": "UnityLearningBasic.sln",
+    "cSpell.words": [
+        "Colour",
+        "Mathf",
+        "Scriptable"
+    ]
 }
