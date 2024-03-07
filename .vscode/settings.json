@@ -56,6 +56,7 @@
         "Colour",
         "Mathf",
         "Raycaster",
-        "Scriptable"
+        "Scriptable",
+        "Slerp"
     ]
 }
