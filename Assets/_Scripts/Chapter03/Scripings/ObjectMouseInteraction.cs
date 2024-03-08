@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-namespace Chapter.Input
+namespace Chapter.InputBase
 {
     public class ObjectMouseInteraction 
     : MonoBehaviour,
