@@ -53,8 +53,10 @@
     },
     "dotnet.defaultSolution": "UnityLearningBasic.sln",
     "cSpell.words": [
+        "ambientcg",
         "Colour",
         "Mathf",
+        "polyhaven",
         "Raycaster",
         "Scriptable",
         "Slerp"
