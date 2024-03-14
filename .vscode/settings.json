@@ -55,8 +55,10 @@
     "cSpell.words": [
         "ambientcg",
         "Colour",
+        "Interactable",
         "Mathf",
         "polyhaven",
+        "Raycast",
         "Raycaster",
         "Scriptable",
         "Slerp"

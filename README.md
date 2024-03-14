@@ -57,6 +57,15 @@
     - Sử dụng Light Probes: [Link](https://youtu.be/_E0JXOZDTKA?si=N4WyCSP8NttY_kUn)
     - Sử dụng Reflection Probes để tạo hình ảnh phản chiếu cho material trong môi trượng xung quanh(Có thể ứng dụng để tạo các hiệu ứng của gương): [Link](https://youtu.be/wol5bd3_bAQ?si=5DhS_n7q3t59KKAT)
     - Rendering Texture(có thể ứng dụng để tạo minimap)cách tạo(Create → Render Texture), sau đó tạo một Camera mới và kéo Render texture vừa tạo vào **Output Texture** => Sau đó tạo một Material và kéo Render Texture vừa tạo vào Albedo nếu ở Core và vào Base map nếu ở URP rồi kéo material đó vào một object bất kỳ để test.
+## Physics and Character Controller:
+* **Short:**
+    - Để xử lý phần code di chuyển nhân vật hay một vật thể nào đó trong trò chơi thì viết vào FixedUpdate(). Vì FixedUpdate sẽ cố định các khung hình trong trò chơi, không như người Update() sẽ cập nhật số lượng khung hình trong từng giây theo cấu hình máy.
+    - Code giúp cho Player di chuyển theo chuột(mô phỏng các tựa game 3D FPS, hay game góc nhìn thứ nhất): [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/MouseLook.cs)
+    - Code di chuyển nhân vật trong không gian 3D bằng Component Character Controller: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Movement.cs)
+    - Code dùng để tác động các vật thể trong game bằng cách nhấn nút: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Interacting.cs)
+    - Code nhặt đồ vật: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Grabbing.cs)
+    - Code cho một vật thể đang đứng trên một vật thế khác di chuyển theo vật thế đó: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/PlatformRiding.cs)
+    - Code giúp cho Player có thể đẩy vật thể: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Pushing.cs)
 
 
 
