@@ -65,7 +65,26 @@
     - Code dùng để tác động các vật thể trong game bằng cách nhấn nút: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Interacting.cs)
     - Code nhặt đồ vật: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Grabbing.cs)
     - Code cho một vật thể đang đứng trên một vật thế khác di chuyển theo vật thế đó: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/PlatformRiding.cs)
-    - Code giúp cho Player có thể đẩy vật thể: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Pushing.cs)
+    - Code giúp cho Player có thể đẩy vật thể: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter07/Scriptings/Pushing.cs).
+## Animation and Movement: 
+* **Short:**
+    * Tạo để tạo animation thì dùng Animation Controller và Animation Clip.
+    * Trong đó Animation clip để tạo các hoạt hoạ frame by frame, trước khi tạo xong hoạt hoạ thì phải kéo nó vào animation controller rồi kéo animation controller đó vào object để tạo thành một game component.
+    * Có các loại Parameters trong việc tạo hoạt hoạ là Float, Int, Booleans, triggers. 
+    * Float thường được dùng để tạo các hoạt hoạ chạy hoặc tăng tốc.
+    * Trigger thường được sử dụng trong các hoạt hoạ nhảy hoặc chết vì nó sẽ trở về false ở frame sau đó ngay khi được đặt thành true.
+    * **Inverse Kinematics** dùng động lực học để làm cho bàn tay hoặc bàn chân vươn tới một điểm nào đó trong không gian(Để sử dụng thì phải chọn vào IK Pass trong phần bánh răng của layer của Animation Controller): ![alt](Images/SuDungIkKinematics.png).
+    * Code mẫu của việc sử dụng IK Kinematics: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter08/Scriptings/IKReach.cs).
+    * Sử dụng **Avartar Mask** để di chuyển một bộ phận cụ thể của GameObject(ưu tiên đối tượng có hình dáng con người).
+    * Sử dụng **Blend Tree** trong Animator Controller để tạo hoạt ảnh mượt mà giữa các trạng thái.
+    * **Cinematic Camera Tracking** được dùng để tạo các cảnh quay giống phim điện ảnh.
+    * **Virtual Camera** là Camera dùng để luôn giữ một Object ở trong tầm nhìn.
+    * **ClearShot Camera** sử dụng để setup nhiều máy quay ảo trong scene dùng để quan sát Object ở nhiều góc độ.
+    * **CinemachineTargetGroup** dùng để cố gắng giữ nhiều vật thể trong máy ảnh(không áp dụng khi chạy game).
+    * "Dolly Camera with Track": Tạo một camera di chuyển theo một hướng di chuyển vòng quanh một vật thể.
+
+
+
 
 
 
