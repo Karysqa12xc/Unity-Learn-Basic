@@ -8,7 +8,7 @@
 ## Scripting 
 * **Short:**
     - Object Pool: Tạo các prefabs với hiệu năng cao hơn so với destroy
-    - Singleton: Một design pattern được sử dụng để code không bị lặp và được khởi tạo một lần duy nhất( tác hại là code sẽ dễ bị phụ thuộc nên cần phải lưu ý )
+    - Singleton([Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter02/Scripting/Singleton.cs)): Một design pattern được sử dụng để code không bị lặp và được khởi tạo một lần duy nhất( tác hại là code sẽ dễ bị phụ thuộc nên cần phải lưu ý )
 ## Input:
 * **Short:**
     - Input System: Được cài đặt bằng Package Manager, đây là hệ thống quản lý điều kiểu object do unity tạo ra.
@@ -82,7 +82,21 @@
     * **ClearShot Camera** sử dụng để setup nhiều máy quay ảo trong scene dùng để quan sát Object ở nhiều góc độ.
     * **CinemachineTargetGroup** dùng để cố gắng giữ nhiều vật thể trong máy ảnh(không áp dụng khi chạy game).
     * "Dolly Camera with Track": Tạo một camera di chuyển theo một hướng di chuyển vòng quanh một vật thể.
-
+## Logic and GamePlay
+* **Short:**
+    * Cách để load Scene ta phải cho Scene đó vào Build Scene Setting và sử dụng hàm LoadScene trong lớp SceneManager.
+    * Các cách load Scene: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/SceneBase.cs)
+    * Để tạo chức năng khi một vật chạm vào một vật khác sẽ gây một lượng thương tổn nhất định và nếu đến giới hạn sẽ làm cho vật chịu thương tổn biến mất: [Gắn vào vật chịu thương tổn](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/DamageReceiver.cs), [Gắn vào vật gửi đi thương tổn](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/DamageGiver.cs)
+    * Tạo một top-down camera di chuyển theo phím WASD: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/TopDownCameraMovement.cs)
+    * Cách quản lý nhiệm vụ: [Thiết lập đối tượng lưu trữ thông tin](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/Quest.cs), [Tạo code quản lý trạng thái của quest](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/QuestManager.cs), [Tạo code gắn vào vật thể và cập nhật trạng thái của quest](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/ObjectiveTrigger.cs), [Tạo code để thực hiện quest](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/TriggerObjectiveOnClick.cs).
+    * Tạo vùng lựa chọn giống các game chiến thuật như AOE và và StarCraft: [Code đọc thông tin của vật thể được chọn](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/BoxSelectable.cs), [Code thực hiện chức năng chọn vật thể](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/BoxSelection.cs).
+    * Tạo các trang menu: [Tạo các Event với Menu](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/Menu.cs), [Tạo trình quản lý Menu](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/MenuManager.cs).
+    * Cách sử dụng wheel collider(chỉ dùng cho các vật thể hình tròn có dạng bánh xe): [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/Vehicle.cs)
+    * Giảm thiểu việc xe không bị lật: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/AdjustCenterMass.cs).
+    * Tạo vùng tăng tốc giống như các vùng trong game ZingSpeed hay Asphalt8: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/SpeedBoost.cs).
+    * Tạo camera di chuyển bằng chuột và lấy một vật thể làm trung tâm: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/OrbitingCamera.cs)
+    * Cách tạo CheckPoint trong game: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/CheckPoint.cs)
+    * Tạo chỉ dẫn cho người chơi để người chơi biết mình đang đi đúng đường: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/LapTracker.cs)
 
 
 
