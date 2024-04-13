@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Chapter09/LogicAndGameplay.unity
+    path: Assets/_Scenes/_Chapter09/LogicAndGameplay.unity
     guid: d61c9a8cbcd0d3645b540578faf69558
   - enabled: 1
-    path: Assets/_Scenes/Chapter09/LoadScene.unity
+    path: Assets/_Scenes/_Chapter09/LoadScene.unity
     guid: f929842449b31be4b824ab4e9c56a258
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b33fbcda4f3bf2044af0af356b282e94, type: 2}

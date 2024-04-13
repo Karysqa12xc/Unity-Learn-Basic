@@ -97,6 +97,17 @@
     * Tạo camera di chuyển bằng chuột và lấy một vật thể làm trung tâm: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/OrbitingCamera.cs)
     * Cách tạo CheckPoint trong game: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/CheckPoint.cs)
     * Tạo chỉ dẫn cho người chơi để người chơi biết mình đang đi đúng đường: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter09/Scriptings/LapTracker.cs)
+## Behavior And AI
+* **Short:**
+    * Tạo chức năng phát hiện mục tiêu trong tầm ngắm của enemy ![alt](Images/KeDichPhatHienNguoiChoi.png)
+    * Tạo chức năng di chuyển tự động theo con chỏ chuộc bằng NavMeshAgent ![alt](Images/VatTheTuDongDiChuyenTheoConTroChuot.png.png)
+    * Tạo chức năng sinh ra các position ngẫu nhiên xung quanh vật thể ![alt](Images/TuDongSinhCacDiemNgauNhien.png)
+    * Test chức năng sinh ra các điểm ngẫu nhiên ở trên ![alt](Images/TestViecVatTheTuSinhCacDiemNgauNhien.png)
+    * Người chơi hoặc Enemy tự động lẩn trốn khi bị phát hiện ![alt](Images/KeThuHoacNguoiChoiTronDiKhiBiPhatHien.png)
+    * Chức năng state machine ![alt](Images/SuDungStateMachine.png)
+    * Cách sử dụng State Machine ![alt](Images/CachSuSungStateMachine.png)
+    * Cách sử dụng thư viện ML-Agents ![alt](Images/CachSuDungThuVienMLAgents.png)
+
 
 
 
