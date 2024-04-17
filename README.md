@@ -107,7 +107,15 @@
     * Chức năng state machine ![alt](Images/SuDungStateMachine.png)
     * Cách sử dụng State Machine ![alt](Images/CachSuSungStateMachine.png)
     * Cách sử dụng thư viện ML-Agents ![alt](Images/CachSuDungThuVienMLAgents.png)
-
+## Sound And Music
+* **Short:**
+    * Sử dụng AudioSource Component để phát âm thanh trong trò chơi
+    * Sử dụng AudioMixer để trộn các âm thanh.
+    * Sử dụng effect send and receiver của Audio Mixer đối với mỗi group để gửi đi âm thanh(lưu ý khi sử dụng phải tăng âm lượng của thành phần receiver lên tối đa)
+    * Sử dụng Component Audio Reverb Zone để mô phỏng âm thanh của Cave hay một khu vực nhất định.
+    * Sử dụng Ducking Effect để làm giảm âm lượng của một vật thể khi một vật thể khác phát ra âm thanh( thường được dùng khi có cuộc đối thoại giữa hai nhân vật trong game).
+    * Các đoạn code sử dụng để hiệu chỉnh âm thanh ![alt](Images/DieuKhienAmThanhTrongTroChoiBangScript.png)
+    * Đoạn code quản lý âm thanh khi sử dụng Singleton: (1) tạo một ScriptableObject [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter11/Scriptings/SoundEffect.cs), (2) tạo một Scripting kế thừa Singleton [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter11/Scriptings/AudioManager.cs)
 
 
 
