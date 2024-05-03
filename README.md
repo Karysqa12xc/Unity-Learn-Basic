@@ -116,12 +116,16 @@
     * Sử dụng Ducking Effect để làm giảm âm lượng của một vật thể khi một vật thể khác phát ra âm thanh( thường được dùng khi có cuộc đối thoại giữa hai nhân vật trong game).
     * Các đoạn code sử dụng để hiệu chỉnh âm thanh ![alt](Images/DieuKhienAmThanhTrongTroChoiBangScript.png)
     * Đoạn code quản lý âm thanh khi sử dụng Singleton: (1) tạo một ScriptableObject [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter11/Scriptings/SoundEffect.cs), (2) tạo một Scripting kế thừa Singleton [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter11/Scriptings/AudioManager.cs)
-
-
-
-
-
-
-
-
+## User Interface:
+* **Short:**
+    * Dùng Sprite Editor để theming control bằng các thay đổi border của hình ảnh ta có thể có được hình ảnh khi thay đổi kích thước không bị biến dạng, sau khi thay đổi xong border của hình ảnh thì chọn type của Component Image là Sliced![alt](Images/SpriteEditor.png)
+    * Code dùng để thực hiên animation Spin cho button
+    [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/SpinButton.cs)
+    * Code dùng để ẩn đi một Item trong List khi được bấm vào [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/FadeAfterDelay.cs)
+    * Code tạo ra mũi tên luôn chỉ vào một vật thể được cho là mục tiêu [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/IndicatorManager.cs)
+    * Code tạo ra một bức tường bằng Editor [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/Wall.cs)
+    * Code tạo ra các thuộc tính tuỳ chỉnh cho Component bằng PropertyDrawer [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/MultiValue.cs)
+    * Tạo ra Attribute trong Component [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/HelpBox.cs)
+    * Code tạo ra trình thêm Sprite theo kiểu tuỳ chỉnh theo tên bằng AssetPostprocessor[Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/NormalMapTextureImporter.cs)
+    * Tạo ra giao diện tạo Object trong Unity bằng Wizard [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/CreateCubeWizard.cs)
 
