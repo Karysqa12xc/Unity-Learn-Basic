@@ -128,4 +128,14 @@
     * Tạo ra Attribute trong Component [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/HelpBox.cs)
     * Code tạo ra trình thêm Sprite theo kiểu tuỳ chỉnh theo tên bằng AssetPostprocessor[Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/NormalMapTextureImporter.cs)
     * Tạo ra giao diện tạo Object trong Unity bằng Wizard [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter12/Scriptings/CreateCubeWizard.cs)
+## Files, Networking and Screenshots
+* **Short:**
+    * Dùng `Application.persistentDataPath` để chuyển đến vùng lưu trữ dữ liệu của projects
+    * Cách để lưu ảnh trong Unity `ScreenCapture.CaptureScreenshot("MyScreenshot.png");`
+    * Cách load texture từ ở đĩa: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/LoadTextureFromDisk.cs)
+    * Cách saving và loading trạng thái của game: [codebase](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/SavingService.cs), [CodeSaveLocal](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/TransformSaver.cs),
+    [codeSaveBehavior](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/SaveableBehavior.cs)
+    * Tải và chuyển đổi json từ website: [Code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/ParsJsonFromWeb.cs)
+    * Importer một script mà unity không hỗ trợ: [code](https://github.com/Karysqa12xc/Unity-Learn-Basic/blob/main/Assets/_Scripts/Chapter13/Scriptings/CubeImporter.cs)
+
 
